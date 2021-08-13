@@ -1,8 +1,9 @@
-# Old but gold !
-## Old but gold !
+# Old is gold !
 ## Haar cascade classifier (OpenCV)
 
 This repo is an implementation of the famous Haar cascade classifier using opencv.This piece of work was done long before the Deep Learning Era had even started. But it’s an excellent work in comparison to the powerful models that can be built with the modern day Deep Learning Techniques. The algorithm is still found to be used almost everywhere. 
+
+![alt text](https://github.com/mohamedgamal7/OldisGold/blob/master/ezgif.com-gif-maker.gif)
 
 # Haar cascase under the hood 
 
@@ -13,11 +14,17 @@ It is an Object Detection Algorithm used to identify faces in an image or a real
 
 ## Features
 
+![alt text](https://github.com/mohamedgamal7/OldisGold/blob/master/pics/1*fQBZTdPk_YzaR7If7Sjzxg.png)
+
+
 The Haar cascade is a machine learning technique so features are needed to be well defined before training. The features shown above make it easy to find out the edges or the lines in the image, or to pick areas where there is a sudden change in the intensities of the pixels.
 
 
 
 The objective here is to find out the sum of all the image pixels lying in the darker area of the haar feature and the sum of all the image pixels lying in the lighter area of the haar feature. And then find out their difference. Now if the image has an edge separating dark pixels on the right and light pixels on the left, then the haar value will be closer to 1. That means, we say that there is an edge detected if the haar value is closer to 1. In the example above, there is no edge as the haar value is far from 1.
+
+![alt text](https://github.com/mohamedgamal7/OldisGold/blob/master/pics/1*K2r9aTsaU-spymgjcMCWAA.gif)
+
  
 ## Reducing calculations 
 
